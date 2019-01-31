@@ -1,0 +1,38 @@
+#Nav{
+	overflow:hidden;
+	height:.33rem;
+	background:#000;
+	padding:.1rem;
+	b{
+		float:left;
+		color:white;
+		display: inline-block;
+		width:.53rem;
+		height:.33rem;
+		font:.18rem/.33rem "";
+	}
+	#navside{
+		float:left;
+		display: inline-block;
+		display: flex;
+		justify-content: space-between;
+		border-radius:.3rem;
+		background:#000;
+		li{
+			width:1.28rem;
+			font:.14rem/.31rem "";
+			text-align: center;
+			a{
+				color:gray;
+				width:1.28rem;
+				display: block;
+				background:#000333;
+				border-radius:.3rem;
+			}
+			.lon{
+				background:#000;
+				color:#fff;
+			}
+		}
+	}
+}

@@ -1,0 +1,123 @@
+#cart{
+	width:100%;
+	background:#fff;
+	#carthead{
+		padding:0 .15rem;
+		height:.52rem;
+		background: #000;
+		b{
+			font:.18rem/.52rem "";
+			color:#fff;
+		}
+		span{
+			font: .16rem/.52rem "";
+			color:#fff;
+			margin-left:1.3rem;
+		}
+	}
+	#cartlist{
+		overflow: hidden;
+		padding:.15rem;
+		img{
+			width:1.26rem;
+			height:1.89rem;
+			float:left;
+		}
+		#cartmenu{
+			float:left;
+			margin-left:.15rem;
+			h2{
+				font:700 .18rem/.3rem "";
+				color:#333;
+				position:relative;
+				span{
+					color:#333;
+					display: inline-block;
+					width:1.5rem;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					white-space: nowrap;
+
+				}
+				b{
+					color:#fff;
+					background:green;
+					width:.26rem;
+					height:.18rem;
+					font:.12rem/.18rem "";
+					display: inline-block;
+					position: absolute;
+					left:1.56rem;
+					text-align:center;
+					top:.05rem;
+				}
+			}
+			#pe{
+				font:.14rem/.24rem "";
+				color:gray;
+				width:1.92rem;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+				span{
+					color:#333;
+				}
+			}
+			p{
+				font:.14rem/.24rem "";
+				color:#333;
+			}
+			p{
+				em{
+					clor:orange;
+					margin-left: .1rem;
+				}
+			}
+			#cartbuy{
+				span{
+					font:.14rem/.24rem "";
+					color:#333;
+					margin-right: .1rem;
+				}
+				input{
+					outline:none;
+					border:none;
+					width:.3rem;
+					height: .3rem;
+					border:1px solid #e8e8e8 ;
+					font:.14rem/.3rem "";
+					color:#333;
+					text-align:center;
+				}
+				b{
+					width:.3rem;
+					height: .3rem;
+					border:1px solid #e8e8e8 ;
+					font:.14rem/.3rem "";
+					color:#333;
+					text-align:center;
+					display: inline-block;
+				}
+			}	
+			h3{
+				margin-top: .1rem;
+				text-align:right;
+				i{
+					font:.18rem/.24rem "";
+					color:red;
+				}
+			}
+			h4{
+				font:.16rem/.3rem "";
+				color:#fff;
+				margin-top: .1rem;
+				border-radius:.3rem;
+				text-align:center;
+				margin-left:1rem;
+				width:1rem;
+				height:.3rem;
+				background:orange;
+			}
+		}
+	}
+}

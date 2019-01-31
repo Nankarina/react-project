@@ -1,0 +1,45 @@
+#address{
+	padding:.1rem .2rem;
+	background:#e8e8e8;
+	overflow:hidden;
+	#left{
+		float: left;
+		margin-top: .05rem;
+		span{
+			font:.16rem/.3rem "";
+
+			color:#000;
+		}
+		i{
+			display: inline-block;
+			margin:.05rem 0  0 .05rem;
+		}
+	}
+	#middle{
+		float:left;
+		width:2.66rem;
+		height:.39rem;
+		background:#fff;
+		border-radius:.04rem;
+		border:1px solid #gray;
+		margin-left:.15rem;
+
+		i{
+			font:.2rem/.39rem "" ;
+			color:#e8e8e8;
+			margin-left:.1rem;
+		}
+		input{
+			border:none;
+			background:#fff;
+			font:.16rem/.39rem "";
+			color:#e8e8e8;
+			margin-left:.15rem;
+			outline: none;
+		}
+	}
+	.right{
+		float:left;
+	}
+	
+}
